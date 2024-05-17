@@ -1,1 +1,138 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgb(255, 255, 255);  
+
+}
+
+.navbar-brand{
+    font-family: 'poppins', sans-serif;
+    font-size:x-large;
+    font-weight: 600;
+    color: rgb(0, 0, 0)
+}
+
+.nav-link{
+    color: inherit;
+    font-family:'Poppins', sans-serif;
+    font-size: small;
+    font-weight: 550;
+    text-decoration: none;
+}
+
+.sp{
+    height: 500px;
+    width: 100%;
+}
+
+h5{
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+p{
+    font-family:'Poppins', sans-serif; 
+    font-size: 25px;
+    font-weight:bold;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.trending-container {
+    margin-top: 20px; 
+max-width: fit-content;
+}
+
+
+.movie-poster-container {
+    height: 200px; 
+    width: 170px; 
+    background-color: #f0f0f0; 
+   padding-left: 30px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap; 
+}
+.movie-poster {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+  h1{
+    font-size:xx-large ;
+    font-weight: 800;
+    font-family: 'poppins', sans-serif;
+  }
+  
+  
+  .trending-container2 {
+    margin-top: 60px; 
+max-width: fit-content;
+;
+}
+
+.movie-poster-container2 {
+    height: 200px; 
+    width: 170px; 
+    background-color: #ffffff; 
+   padding-left: 30px;
+}
+
+.row2 {
+    display: flex;
+    flex-wrap: wrap; 
+    
+}
+.movie-poster2 {
+    max-width: 100%;
+    max-height: 100%;
+}
+footer{
+    margin-top: 60px;
+    background-color: goldenrod;
+    
+
+}
+ h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+ color: #000000;
+ }
+ 
+ .backtopbtn{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: black ;
+    bottom: 40px;
+    right: 50px;
+
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: goldenrod;
+    font-size: 22px;
+
+ }
+.btn-outline-success{
+    color: goldenrod;
+    background-color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 550;
+  
+}
+h6{
+    font-family: 'poppins', sans-serif;
+    font-size: large;
+    font-weight: 550;
+    font-style: italic;
+}
 
