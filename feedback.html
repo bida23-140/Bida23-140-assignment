@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="feedback.css">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img class="Logo" src="logos/warner-bros-logo-png-transparent.png" alt="WarnerBros Logo" height="30" class="d-inline-block align-top"> WarnerBros
+            </a>
+ 
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">
+                        <img class="Logo" src="logos/bx-home.svg" alt="Home" height="30" class="d-inline-block align-top"> Home</a>
+                </li>
+           
+                <li class="nav-item">
+                  <a class="nav-link" href="movies.html">
+                    <img class="Logo" src="logos/bxs-movie.svg" alt="Movies" height="30" class="d-inline-block align-top">Movies
+                </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="shows.html">
+                    <img class="Logo" src="logos/bx-tv.svg" alt="Shows" height="30" class="d-inline-block align-top"> Shows
+                </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="gamesandapps.html">
+                    <img class="Logo" src="logos/bx-game.svg" alt="A&G" height="30" class="d-inline-block align-top">Apps & Games
+                </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Collections.html">
+                    <img class="Logo" src="logos/bx-collection.svg" alt="Collections" height="30" class="d-inline-block align-top">Collections
+                </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="feedback.html">
+                    <img class="Logo" src="logos/bx-info-circle.svg" alt="Feedback" height="30" class="d-inline-block align-top">feedback
+                </a>
+                </li>
+                <li class="nav-item">
+                  </ul>
+            
+
+           
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+<div class="feedback-container">
+    <form action="https://api.web3forms.com/submit" method="POST"
+        class="contact-left">
+        <div class="contact-left-title">
+            <h3>Help Us Improve</h3>
+            <hr>
+        </div>
+        <input type="hidden" name="access_key" value="a4a5f932-bdbe-48c0-9673-b4bb12aaf520">
+        <input type="text" name="name" placeholder="Your name" class="feedback-inputs" required>
+        <input type="email" name="email" placeholder="Your email" class="feedback-inputs" required>
+       <textarea name="message" placeholder="Your Feedback" class="feedback-inputs" required></textarea>
+       <button type="submit">Submit <i class='bx bxs-hand-right'></i> </button>
+    </form>
+    <div class="contact-right">
+        <img src="logos/right_img.png">
+    </div>
+
+</div>
+
+</section>
+<footer>
+   <div class="contacts">
+       <div class="tag">
+           <h2>FOLLOW US ON</h2>
+           <ul>
+          <li class="nav-item">
+           <a class="nav-link" href="https://www.instagram.com/wbpictures/">
+             <img class="Logo" src="logos/bxl-instagram.svg" alt="ig logo" height="30" class="d-inline-block align-top"> Instagram
+         </a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="https://twitter.com/wbpictures?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthora">
+             <img class="Logo" src="logos/bxl-twitter.svg" alt="x logo" height="30" class="d-inline-block align-top"> Twitter
+         </a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="https://www.facebook.com/WarnerBrosPictures/">
+             <img class="Logo" src="logos/bxl-facebook.svg" alt="fb logo" height="30" class="d-inline-block align-top"> Facebook
+         </a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="https://www.tiktok.com/@warnerbrosmovies?lang=en">
+             <img class="Logo" src="logos/bxl-tiktok.svg" alt="tt logo" height="30" class="d-inline-block align-top"> TikTok
+         </a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="https://www.linkedin.com/company/warner-bros--entertainment">
+             <img class="Logo" src="logos/bxl-linkedin-square.svg" alt="li logo" height="30" class="d-inline-block align-top"> LinkedIn
+         </a>
+         </li>
+          
+
+       </div>
+   </div>
+   <p class="T&CS"> <img class="Logo" src="logos/warner-bros-logo-png-transparent.png" alt="WarnerBros Logo" height="30" class="d-inline-block align-top">TM & © 2024 Warner Bros. Entertainment Inc. All rights reserved.</p>
+</footer>
+
+<a class="backtopbtn" href="#"><i class='bx bx-chevrons-up'></i></a>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</body>
+</html>
